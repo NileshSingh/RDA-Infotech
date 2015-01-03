@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Learn Center | Contacts</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.bg, .box2{behavior:url("js/PIE.htc");}</style>
+<![endif]-->
+</head>
+<body id="page5">
+<div class="body1">
+  <div class="main">
+    <!-- header -->
+    <header>
+      <div class="wrapper">
+        <nav>
+          <ul id="menu">
+            <li><a href="index.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="programs.html">Technologies</a></li>
+            <li><a href="teachers.html">Projects</a></li>
+            <li><a href="admissions.html">Donate</a></li>
+            <li class="end"><a href="contacts.html">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul id="icons">
+           <li><a href="register.html">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <div class="wrapper">
+        <h1><a href="index.html" id="logo">Learn Center</a></h1>
+      </div>
+      <div id="slogan">Open The World<span>for knowledge</span> </div>
+    </header>
+    <!-- / header -->
+  </div>
+</div>
+<div class="body2">
+  <div class="main">
+    <!-- content -->
+    <section id="content">
+	
+         <a href="register.html"><img src="images/thumb.jpeg" alt=""></a>
+      <h3>Thank You For registration </h3>
+      <h3>We will revert you soon </h3><a href="register.html" >Click Here</a><h3>To go back</h3>
+    </section>
+    <!-- content -->
+    <!-- footer -->
+   
+    <!-- / footer -->
+  </div>
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</html>

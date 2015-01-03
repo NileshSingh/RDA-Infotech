@@ -1,0 +1,32 @@
+<?php
+$name = $_POST['InputName'];
+$email = $_POST['InputEmail'];
+$confirm_email= $_POST['InputEmail1'];
+$message = $_POST['InputMessage'];
+
+
+
+$servername = "localhost";
+$username = "root";
+$password = "root";
+$dbname = "rda";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO user_registration (name, email, confirm_email, message)
+VALUES ('$name', '$email', '$confirm_email', '$message')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+	header("location: page1.php"); 
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+?> 
